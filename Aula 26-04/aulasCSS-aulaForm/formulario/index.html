@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="containerFormulario padding">
+
+    <div class="containerNomeFormulario border d-flex flexCenter">
+        <span class="NomeFormulario ">
+            Formulario
+        </span>
+    </div>
+
+    <form id="formulario">
+
+        <div class="containerNomeUsuario border d-flex padding">
+            <label for="iptNomeUsuario" class="labelNomeUsuario">Nome de Usuário: </label>
+            <input id="iptNomeUsuario" type="text" name="iptNomeUsuario" class="inpuNomeUsuario">
+        </div>
+
+        <div class="containerSenha border d-flex padding">
+            <label for="iptSenha" class="labelSenha">Senha:</label>
+            <input id="iptSenha" type="password" name="iptSenha" class="InputSenha">
+        </div>
+
+        <div class="containerEmail border d-flex padding">
+            <label for="iptEmail" class="labelEmail">Email:</label>
+            <input id="iptEmail" type="email" name="iptEmail" class="inputEmail">
+        </div>
+
+        <div class="containerAniversario border d-flex padding">
+            <label for="iptAniversario" class="labelAniversario">Aniversario:</label>
+            <input id="iptAniversario" type="date" name="iptAniversario" class="inputAniversario">
+        </div>
+
+        <div class="containerArquivo border d-flex padding">
+            <label for="iptArquivo" class="labelArquivo">Selecione o arquivo</label>
+            <input id="iptArquivo" type="file" name="iptArquivo" class="inputArquivo">
+        </div>
+    </form>
+</div>
+
+
+</body>
+</html>

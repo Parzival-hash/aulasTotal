@@ -1,0 +1,176 @@
+:root{
+    --corPrincipal: #18181b;
+    --corSecundaria: #808080;
+    --corTercearia: #40E0D0;
+    --corBorda: #00FF00; 
+}
+
+.border{
+    border: 2px solid red;
+}
+.d-flex {
+    display: flex;
+  }
+.flexCenter {
+    justify-content: center;
+}
+.padding{
+    padding: 25px 35px;
+}
+
+
+body{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Merriweather', serif;
+
+    margin: 0px;
+    background-color: var(--corPrincipal);
+    
+    color: white;
+
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding-top: 8vh;
+}
+
+
+.containerFormulario{
+    width: 50vw;
+    height: 70vw;
+
+    border-radius: 20px;
+    border: 4px solid;
+    border-color: var(--corBorda);
+}
+
+.NomeFormulario{
+    font-size: 40px
+}
+
+/* usuario */
+.containerNomeUsuario{
+    margin-top: 10px;
+}
+
+.labelNomeUsuario{
+    flex: 1;
+}
+.inpuNomeUsuario{
+    background-color: transparent;
+    border: none;
+    color: white;
+
+    border-bottom: 1px solid var(--corBorda);
+
+    width: 50%;
+    height: 20px;
+
+    margin-left: 10px;
+    outline: none;
+
+    flex: 3;
+}
+
+/* SENHA */
+
+
+.containerSenha{
+    margin-top: 10px;
+}
+.labelSenha{
+    flex: 1;
+}
+
+.InputSenha{
+    background-color: transparent;
+    border: none;
+    color: white;
+
+    border-bottom: 1px solid var(--corBorda);
+
+    width: 50%;
+    height: 20px;
+
+    margin-left: 10px;
+    outline: none;
+
+    flex: 3;
+}
+
+/* email */
+
+.containerEmail{
+    margin-top: 10px;
+}
+.labelEmail{
+    flex: 1;
+}
+.inputEmail{
+    background-color: transparent;
+    border: none;
+    color: white;
+
+    border-bottom: 1px solid var(--corBorda);
+
+    width: 50%;
+    height: 20px;
+
+    margin-left: 10px;
+    outline: none;
+
+    flex: 3;
+}
+
+/* Aniversario */
+
+.containerAniversario{
+    margin-top: 10px;
+}
+.labelAniversario{
+    flex: 1;
+}
+.inputAniversario{
+    background-color: transparent;
+    border: none;
+    color: white;
+
+    border-bottom: 1px solid var(--corBorda);
+
+    width: 50%;
+    height: 20px;
+
+    margin-left: 10px;
+    outline: none;
+
+    flex: 3;
+
+    font-size: 20px;
+}
+
+/* enviar arquivos */
+
+.containerArquivo{
+    margin-top: 10px;
+}
+.labelArquivo{
+    flex: 1;
+}
+.inputArquivo{
+    background-color: transparent;
+    border: none;
+    color: white;
+
+    border-bottom: 1px solid var(--corBorda);
+
+    width: 50%;
+    height: 20px;
+
+    margin-left: 10px;
+    outline: none;
+
+    flex: 3;
+
+    font-size: 20px;
+}

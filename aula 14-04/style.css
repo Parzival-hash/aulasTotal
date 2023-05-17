@@ -1,0 +1,196 @@
+body{
+    background-color: #18181b;
+    margin: 0%;
+    font-family: 'Kanit', sans-serif;
+}
+header{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+
+}
+
+                             /* topo */
+
+.borda {
+    border: 2px solid yellowgreen;
+}
+/* background e titulo */
+
+.containerTOPO{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    margin-top: 0%;
+    background-color: rgb(81, 0, 156);
+    align-items: center;
+}
+
+.containerTitulo{
+    margin-left: 10px;
+
+    width: 900px;
+    height: 100px;
+
+    display: flex;
+
+  
+}
+
+#titulo{
+    margin: 0;
+    
+    display: flex;
+    margin-top:25px;
+    
+    width: 200px;
+    height: 100px;
+
+
+    font-weight: 600;
+    font-size: 30px;
+}
+
+/* botões topo */
+
+.containerBotao{
+    display: flex;
+    align-items: center;
+
+
+
+    font-family: 'Kanit', sans-serif;
+
+
+}
+
+
+.ulBotao{
+    list-style-type: none;
+    display: flex;
+
+
+
+}
+
+
+.Opcao1{
+    cursor: pointer;
+    background-color: rgba(0, 4, 240, 0.329);
+    color: white;
+
+    width: 100px;
+    height: 50px;
+
+    border: 1px solid black;
+    border-radius: 2vh;
+
+
+}
+.opcao2{
+    cursor: pointer;
+    background-color: rgba(0, 4, 240, 0.329);
+    color: white;
+
+    width: 100px;
+    height: 50px;
+
+    border: 1px solid black;
+    border-radius: 2vh;
+    margin-left: 40px;
+}
+.opcao3{
+    cursor: pointer;
+    background-color: rgba(0, 4, 240, 0.329);
+    color: white;
+
+    width: 100px;
+    height: 50px;
+
+    border: 1px solid black;
+    border-radius: 2vh;
+    margin-left: 40px;
+
+}
+
+
+                                    /* principal */
+
+
+.containerTotal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.quadrado1{
+
+    margin-top: 100px;
+    width: 800px;
+    height: 800px;
+    background-color: white;
+    border: 10px solid;
+    border-radius: 30PX;
+
+    animation: RGB 3s infinite;
+
+    border-color: red;
+}
+
+.quadrado2{
+
+    margin-top: 100px;
+
+    width: 800px;
+    height: 800px;
+
+    background-color: purple;
+
+    border: 10px solid;
+    border-radius: 30PX;
+
+    animation: RGB 3s infinite;
+
+    border-color: red;
+}
+
+.bola1{
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+
+    border-radius: 100%;
+
+    position: relative;
+    background-color: red;
+    animation: RGB2 5s infinite;
+}
+
+.bola2{
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+
+    border-radius: 100%;
+
+    position: relative;
+    background-color: red;
+    animation: RGB2 5s infinite;
+}
+
+@keyframes RGB {
+    25%{border-color: red;}
+    50%{border-color: yellow;}
+    75%{border-color: orange;}
+    100%{border-color: blue;}
+}
+
+@keyframes RGB2 {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:700px; top:0px;}
+    50%  {background-color:blue; left:700px; top:700px;}
+    75%  {background-color:green; left:0px; top:700px;}
+    100% {background-color:red; left:0px; top:0px; }
+  }
+
